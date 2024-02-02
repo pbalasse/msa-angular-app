@@ -10,7 +10,7 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './leftbar.component.css',
 })
 export class LeftbarComponent {
-  drawerWidth = 150; /* largeur du drawer*/
+  drawerWidth = 170; /* largeur du drawer*/
   margin = -this.drawerWidth; /* marge à gauche calculée */
   toggle() {
     this.margin == -this.drawerWidth

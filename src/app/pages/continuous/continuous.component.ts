@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @Component({
   selector: 'app-continuous',
   standalone: true,
-  imports: [],
+  imports: [MatTabsModule],
   templateUrl: './continuous.component.html',
-  styleUrl: './continuous.component.css'
+  styleUrl: './continuous.component.css',
 })
-export class ContinuousComponent {
-
-}
+export class ContinuousComponent {}

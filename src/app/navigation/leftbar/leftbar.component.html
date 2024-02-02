@@ -8,26 +8,25 @@
   />
 </div>
 
-<div class="drawer" [style.margin-left.px]="margin">
-  <div>
+<div class="drawer" [style.margin-left.px]="margin" (click)="toggle()">
+  <div class="menuItem">
     <mat-icon>timeline</mat-icon>
     <a routerLink="/continuous">Valeurs continues</a>
   </div>
-  <div>
+  <div class="menuItem">
     <mat-icon>bar_chart</mat-icon>
     <a routerLink="/discrete">Valeurs binaires</a>
   </div>
   <div class="spacer"></div>
-  <div>
+  <div class="menuItem">
     <mat-icon>perm_identity</mat-icon>
     <a routerLink="/">Profil</a>
   </div>
-
-  <div>
-    <mat-icon>settings_outline</mat-icon>
+  <div class="menuItem">
+    <mat-icon>settings</mat-icon>
     <a routerLink="/">Paramètres</a>
   </div>
-  <div>
+  <div class="menuItem">
     <mat-icon>help_outline</mat-icon>
     <a routerLink="/about">about</a>
   </div>

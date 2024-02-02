@@ -21,7 +21,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 170px;
   height: calc(100% - 40px);
   padding: 0px;
   box-sizing: border-box;
@@ -34,4 +34,19 @@
 .spacer {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.menuItem a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
 }
