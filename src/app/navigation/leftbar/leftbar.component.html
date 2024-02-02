@@ -1,0 +1,34 @@
+<div class="logo">
+  <img
+    class="image"
+    src="/favicon.ico"
+    width="32px"
+    height="32px"
+    (click)="toggle()"
+  />
+</div>
+
+<div class="drawer" [style.margin-left.px]="margin">
+  <div>
+    <mat-icon>timeline</mat-icon>
+    <a routerLink="/continuous">Valeurs continues</a>
+  </div>
+  <div>
+    <mat-icon>bar_chart</mat-icon>
+    <a routerLink="/discrete">Valeurs binaires</a>
+  </div>
+  <div class="spacer"></div>
+  <div>
+    <mat-icon>perm_identity</mat-icon>
+    <a routerLink="/">Profil</a>
+  </div>
+
+  <div>
+    <mat-icon>settings_outline</mat-icon>
+    <a routerLink="/">Paramètres</a>
+  </div>
+  <div>
+    <mat-icon>help_outline</mat-icon>
+    <a routerLink="/about">about</a>
+  </div>
+</div>
